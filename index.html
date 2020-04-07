@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<!--##############################################
+#1 This is my List King. You should make it yours, 
+Change the page title to your name, 
+add in authorship comments too. BC 
+############################
+Dr. Cumbie you are not the owner of this specific myListKing.
+It belongs to the author below.
+
+Author: Harsh Bhatt
+Date:- 04/06/2020
+Assignment: Dev08.jQuery debug
+#################################
+
+###############################################-->
+	
+<head>
+  <meta charset="UTF-8">
+	<title>HB's myListKing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+
+<!--##############################################
+#2 Help! Why did my stylesheet stop loading! BC
+
+-> Changed href="css/styles.css" to href="css/style.css" which matches
+   the file naming in the folder.
+
+###############################################-->
+		<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<!--##############################################
+#3 Plz give a double-check on all my tags. Is my 
+HTML page valid. All tags closed? Parentheses, quotatoins, 
+etc. (Hint: 2 errors to fix here) -BC
+-> Fixed the "" to the part value="add
+-> I think there is not a second error.
+###############################################-->
+	
+<body>
+
+  <div id="page">
+  <h1 id="header">List</h1>
+  <h2>Buy groceries <span id="counter"></span></h2>
+  <ul>
+    <li id="one" class="hot"><em>fresh</em> figs</li>
+    <li id="two" class="hot">pine nuts</li>
+    <li id="three" class="hot">honey</li>
+    <li id="four">balsamic vinegar</li>
+  </ul>
+  <div id="newItemButton"><button id="showForm">new item</button></div>
+  <form id="newItemForm">
+    <input type="text" id="itemDescription" placeholder="Add description" />
+    <input type="submit" id="add" value="add" />																				 
+  </form>
+  <div>
+    
+    <p><a href="" target="_blank">Repository</a><br>
+      <a href="https://validator.w3.org/nu/#textarea" target="_blank">Nu Validator</a><br>
+    </p>
+    
+  </div>
+</div>
+
+  <script src='libs/jquery/3.3.1/jquery.min.js'></script>
+	<script src='js/index.js'></script>
+<!--##############################################
+#4 I think I'm having trouble debugging my script
+because this HTML file doesn't color code anything 
+for me to help me figure out my errors! How can I
+fix this. (Also this HTML code is so long, I'd  love to 
+make it simpler by moving this code somewhere else!) -BC
+
+#######################################################
+Hey! Dr. Cumbie I have moved all the script to an external file
+which is code.js in the script folder, which is referenced 
+below in the script tag. 
+																				 
+(hey, after this, the next one, #5 is in my stylesheet)
+###############################################-->
+	
+<script src="scripts/code.js">
+	  </script>
+
+</body>
+</html>
